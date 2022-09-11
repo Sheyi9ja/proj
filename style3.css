@@ -1,0 +1,108 @@
+body{
+    background-image: url(image.jpeg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.m-box{
+    max-width: 550 !important;
+    margin: auto;
+    margin-top: 4%;
+    font-family: monospace;
+    letter-spacing: 0.5px;
+    background-color: whitesmoke;
+    border: 1px solid rgb(235, 232, 232);
+    border-radius: 10px;
+    height: 48%;
+}
+.m-box .default{
+    border: 1px solid #ccc;
+    width: 100%;
+    height: 10%;
+    border-bottom: none;
+    text-align: center;
+    font-family: monospace;
+    font-weight: 700;
+    display: inline-block;
+    background-color: #007bff;
+}
+.chat-page{
+    padding: 0 0 50px 0;
+}
+.msg-inbox{
+    border: 1px solid #ccc;
+    overflow: hidden;
+    padding-bottom: 30px;
+}
+.chats{
+    padding: 30px 5px 0 0px;
+}
+.user{
+    background: #efefef none repeat scroll 0 0;
+    color: #636364;
+    height: 30px;
+    overflow-y: auto;
+    margin: 0;
+    padding: 5px 10px 5px 12px ;
+    display: inline-block;
+    height:  55px;
+    border-radius: 15px 0;
+    font-family: monospace;
+    font-size: 19px;
+}
+
+/*chat bot reply */
+
+.bot-page{
+    padding: 0 0 50px 0;
+}
+.msg-outbox{
+    overflow: hidden;
+    padding-bottom: 30px;
+}
+.bot-chat{
+    padding: 30px 5px 0 0px;
+}
+.bot{
+    background: #007bff none repeat scroll 0 0;
+    color: #ccc;
+    height: 30px;
+    overflow-y: auto;
+    margin: 0;
+    padding: 5px 10px 5px 12px ;
+    display: inline-block;
+    height:  100px;
+    position: relative;
+    border-radius: 15px 0;
+    font-family: monospace;
+    font-size: 19px;
+}
+.bottom{
+    position: relative;
+    height: 12.5%;
+    background-color: #dfdfdfe0;
+    border-radius: 1px;
+    border-top: 1px solid #d9d9d9;
+    border-radius: 0 0 5px 5p;
+}
+.msg{
+    margin-top: 6px;
+    margin-left: 6px;
+    outline: none !important;
+    width: 97% !important;
+    background-color: #fff;
+    height: 80%;
+    border: transparent;
+}
+.btn{
+    outline: none !important;
+    background-color: #007bff;
+    height: 70%;
+    border: transparent;
+    position: absolute;
+    top: 50%;
+    right: 3%;
+    font-weight: 700;
+    transform: translateY(-50%);
+}
